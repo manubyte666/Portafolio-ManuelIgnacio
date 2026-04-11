@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Manuel Ignacio - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <header class="perfil-header">
+        <h1 class="nombre-titulo">Manuel Villarroel.</h1>
+        <p class="tagline">Desarrollador Jr. & Data Analyst.</p>
+        <p class="location">Santiago, Chile.</p>
+    </header>
+
+        <div class="seccion">
+            <h2>Análisis de Datos</h2>
+            <p>Aquí puedes poner los resultados de un dashboard que hice junto con looker studio.
+                junto con toda la informacion que una empresa necesita. como ticket promedio, ventas por dia y tienda con mayor productividad.
+                <a href="https://lookerstudio.google.com/u/6/reporting/0d770b20-8f0d-4779-a51d-1d8167b16875/page/HHJlF" 
+   class="link-looker" 
+   target="_blank" 
+   rel="noopener noreferrer">
+    <i class="fa-solid fa-chart-column"></i>
+    <span>Ver Reporte en Looker Studio</span> </a>
+    </div>    
+
+
+
+        <div class="seccion">
+            <h2>Desarrollador Jr.</h2>
+            <p>con habilidades para desarrollar soluciones limpias y eficientes con HTML y CSS3. 
+                con una ventaja competitiva clave un nivel de inglés avanzado.
+            </p>
+               
+</div>
+
+
+
+<div class="seccion">
+    <h2>Contacto y Redes</h2>
+    <p>Puedes contactarme o ver mi perfil profesional aquí:</p>
+    
+    <ul class="lista-contacto">
+        <li>
+            <strong>Correo:</strong> 
+            <a href="mailto:manuelvillarroelN@outlook.com">manuelvillarroelN@outlook.com</a>
+        </li>
+        <li>
+            <strong>Teléfono:</strong> 
+            <a href="tel:+56936797477">+56 9 3679 7477</a>
+        </li>
+        <li>
+            <strong>LinkedIn:</strong> 
+            <a href="https://www.linkedin.com/in/manuel-villarroel-norambuena-979b46342/" target="_blank" rel="noopener noreferrer">
+                Ver Perfil Profesional
+            </a>
+        </li>
+    </ul>
+</div>
+   
+
+  
+
+<footer style="border-top: 1px solid #000; padding: 20px; text-align: center;">
+    <p>&copy; 2026</p>
+</footer>
+           
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <style>
+        /* 1. Definimos la animación */
+        @keyframes barridoEntrada {
+            from {
+                opacity: 0;
+                transform: translateY(20px); /* Empieza un poco más abajo */
+                filter: blur(5px);           /* Un toque de desenfoque opcional */
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);    /* Llega a su posición original */
+                filter: blur(0);
+            }
+        }
+
+        /* 2. Aplicamos la animación al cuerpo de la página */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            
+            /* Duración de 1.2 segundos, suave al inicio y final */
+            animation: barridoEntrada 1.2s ease-out forwards;
+        }
+
+        /* Estilo rápido para el contenido */
+        .contenido {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f4f4f4;
+        }
+
+        <link rel="stylesheet" href="style.css">
