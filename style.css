@@ -1,0 +1,127 @@
+/* Paleta de colores estilo Gemini Dark */
+:root {
+    --bg-color: #131314;       /* Fondo principal oscuro */
+    --card-bg: #1e1f20;        /* Fondo de tarjetas o secciones */
+    --text-main: #e3e3e3;      /* Texto principal (gris muy claro) */
+    --text-sub: #b4b4b4;       /* Texto secundario */
+    --accent: #8ab4f8;         /* Azul suave para enlaces o detalles */
+    --border: #3c4043;         /* Bordes sutiles */
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+}
+
+h1 {
+    color: var(--text-main);
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+p {
+    color: var(--text-sub);
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Estilo de tarjeta profesional */
+.seccion {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 20px;
+    transition: border 0.3s ease;
+}
+
+.seccion:hover {
+    border: 1px solid var(--accent);
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+/* Contenedor con un poco más de estilo */
+.input-wrapper {
+    position: relative;
+    margin-top: 10px;
+}
+
+.input-gemini-link {
+    width: 100%;
+    padding: 14px 20px;
+    background-color: #1e1f20;
+    border: 1px solid #3c4043;
+    border-radius: 28px; /* Bordes muy redondeados tipo buscador de Google */
+    color: #e3e3e3;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+/* El efecto de iluminación azul cuando haces clic */
+.input-gemini-link:focus {
+    outline: none;
+    border-color: #8ab4f8;
+    background-color: #2a2b2d;
+    box-shadow: 0 0 8px rgba(138, 180, 248, 0.2);
+}
+
+/* Estilo para el texto de ayuda pequeño abajo */
+.hint {
+    font-size: 0.8rem;
+    color: #80868b;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+
+
+.seccion {
+    background: rgba(28, 28, 30, 0.7); /* Fondo semi-transparente */
+    backdrop-filter: blur(20px);      /* EFECTO CLAVE: Desenfoca lo que hay detrás */
+    -webkit-backdrop-filter: blur(20px);
+    
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Borde casi invisible */
+    border-radius: 22px; /* Bordes muy redondeados tipo iPhone */
+    
+    padding: 30px;
+    margin-bottom: 24px;
+    
+    /* Sombra suave y difusa para dar altura */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); /* Animación suave */
+}
+
+/* Efecto de elevación al pasar el mouse */
+.seccion:hover {
+    transform: translateY(-8px) scale(1.01);
+    background: rgba(44, 44, 46, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
+}
+
+.nombre-titulo {
+    background: linear-gradient(180deg, #ffffff 0%, #a1a1a6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
